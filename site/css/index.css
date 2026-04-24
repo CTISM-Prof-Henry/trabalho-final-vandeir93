@@ -1,0 +1,22 @@
+
+
+.lista-navegacao{
+    display: flex;
+
+}
+
+.navegacao{
+    display: flex;
+    background-color: lightblue;
+    height: 100px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.item-barra-navegacao{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    border: 2px solid black;
+}
