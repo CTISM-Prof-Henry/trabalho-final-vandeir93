@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    height: 300px;
+    flex-direction: row; /* determina a direcão do eixo*/
+    flex-wrap: nowrap; /*flexbox*/
+    background-color: aquamarine;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap:50px;
+    column-gap: 10px;
+}
+.item{
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    border: 5px solid white;  /* box model*/
+    padding: 5px;
+    background-color: lightpink;
+}
+
+h1{
+    color: red;
+}
