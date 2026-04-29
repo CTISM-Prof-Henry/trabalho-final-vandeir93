@@ -50,7 +50,8 @@ nav a:hover{
     height: auto;
     width: 34%;
     background-color:#241D1D;
-    font-size: 15px;
+    font-size: 13px;
+    padding: 10px;
 }
 .imagem-secao-1{
     width: 100%;
@@ -65,10 +66,10 @@ nav a:hover{
     border: solid black;
     text-align: center;
     border-radius: 10px;
-    font-size: 25px;
+    font-size: 23px;
     color: #E6DADA;
     font-style: italic;
-    padding: 2px 5px;
+    padding: 10px;
 }
 
 .footer{

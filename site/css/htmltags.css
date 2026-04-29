@@ -1,0 +1,36 @@
+body{
+    background-color: #87B38D;
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+    background-color: #555B56;
+    align-items: center;
+
+}
+
+.container{
+    width: 60%;
+    height: auto;
+    background-color: #87B38D;
+    margin: 10px auto;
+    text-align: center;
+    padding: 25px;
+}
+
+.imagem-1{
+    margin-bottom: 15px;
+}
+
+.top-head{
+    display: flex;
+    justify-content: center;
+    border: 2px solid #241D1D;
+    background-color: #555B56;
+}
+
+.lista{
+
+    text-align: left;
+}
