@@ -78,6 +78,11 @@ h1{
 
 .footer-items{
     padding-left: 15px;
+
+}
+
+.footer-items li:hover{
+    transform: scale(1.15);
 }
 
 .footer ul{
@@ -103,4 +108,16 @@ form textarea{
     width: 80%;
     height: 80px;
 
+}
+
+.button{
+    border-radius: 5px;
+    background-color: #87B38D;
+}
+.button:hover{
+    background-color: #769F8C;
+}
+
+button:active {
+    transform: scale(0.95);
 }
