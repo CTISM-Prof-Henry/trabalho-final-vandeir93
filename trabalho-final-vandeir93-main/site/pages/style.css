@@ -6,11 +6,13 @@ body{
 }
 
 .container{
+
     width: 1150px;
     margin: 0 auto;
 }
 
 .header{
+
     margin-top: 10px;
     position: relative;
     height: 300px;
@@ -29,6 +31,7 @@ body{
     font-size: 32px;
     font-family: Georgia, serif;
     text-align: center;
+    text-shadow: #0b0b12 4px 4px 4px;
 }
 
 main{
@@ -72,7 +75,6 @@ h1{
     line-height: 1.6;
     width: 100%;
     height: 170px;
-
     border: 1px solid #DFE2CF;
 }
 
@@ -96,28 +98,38 @@ h1{
 
 .footer form{
     text-align: center;
-    margin-top: 15px;
+    margin-top: 5px;
     margin-right: 15px;
 }
 .footer-comentario label{
-    display: block;    ;
+    display: block;
 
 }
 
 form textarea{
     width: 80%;
-    height: 80px;
+    height: 40px;
 
 }
 
 .button{
+    padding-top: -30px;
     border-radius: 5px;
     background-color: #87B38D;
 }
 .button:hover{
     background-color: #769F8C;
+    transform: scale(1.15);
 }
 
 button:active {
     transform: scale(0.95);
+}
+
+@media (max-width: 768px){
+    .container{
+        flex-direction: column;
+        width: 90%;
+    }
+
 }

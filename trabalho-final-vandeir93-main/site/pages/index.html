@@ -2,23 +2,23 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David Bowie</title>
     <link rel="stylesheet" href="../pages/style.css">
 </head>
 <body>
     <div class="container">
-    <header class="header">
+        <header class="header">
 
-        <img src="../images/img-bowie.png" alt="david" class="imagem-cabecalho"/>
-        <p  class="header-citacao">“I don’t know where I’m going from here,<br> but I promise it won’t be boring.”</p>
+             <img src="../images/img-bowie.png" alt="david" class="imagem-cabecalho"/>
+            <p  class="header-citacao">“I don’t know where I’m going from here,<br> but I promise it won’t be boring.”</p>
 
-    </header>
+        </header>
 
     <main>
         <section class="quem-foi-bowie">
             <h1>David Bowie: um verdadeiro Rockstar</h1>
-            <p>
-                David Bowie foi um dos artistas mais criativos e influentes da música mundial. Conhecido por sua capacidade
+            <p>                David Bowie foi um dos artistas mais criativos e influentes da música mundial. Conhecido por sua capacidade
                 de se reinventar, ele marcou diferentes gerações com sua voz, seu estilo visual e sua mistura de rock, pop,
                 arte, teatro e ficção científica. Ao longo de sua carreira, Bowie criou personagens icônicos, como <a
                     href="https://en.wikipedia.org/wiki/Ziggy_Stardust_(character)" target="_blank">Ziggy
@@ -56,6 +56,30 @@
                     ele conquistou o público e se tornou um símbolo de liberdade artística. Bowie não era apenas um cantor:
                     ele era um artista completo, capaz de transformar sua imagem, seu som e sua mensagem a cada nova fase.
                 </p>
+                <p>David Bowie deixou um dos legados mais importantes da música e da cultura pop. Sua principal contribuição foi
+                    mostrar que a arte podia estar sempre em transformação. Ao longo da carreira, ele mudou de estilo, visual e
+                    personalidade artística várias vezes, criando personagens marcantes como Ziggy Stardust e explorando
+                    diferentes sonoridades, do rock ao soul, da música eletrônica ao pop experimental.
+                </p>
+                <p>
+                    Bowie também ajudou a quebrar padrões de comportamento e aparência. Em uma época em que muitos artistas
+                    seguiam modelos mais tradicionais, ele usou roupas, maquiagem e performances ousadas para questionar
+                    ideias sobre identidade, gênero e liberdade de expressão. Com isso, influenciou não apenas músicos,
+                    mas também a moda, o cinema, o teatro e as artes visuais.
+                </p>
+                <p>
+                    Na música, seu impacto foi enorme. Ele lançou álbuns inovadores, misturou estilos diferentes e abriu
+                    caminho para artistas que queriam experimentar sem se prender a um único gênero. Sua coragem em mudar
+                    constantemente mostrou que um artista não precisava repetir sempre a mesma fórmula para ter sucesso.
+                </p>
+                <p>
+                    O legado de David Bowie permanece vivo porque ele foi mais do que um cantor famoso. Ele foi um símbolo
+                    de criatividade, reinvenção e liberdade artística. Sua obra continua inspirando novas gerações a serem
+                    originais, a desafiarem padrões e a enxergarem a arte como um espaço de transformação.</p>
+
+
+
+
                 <p>
                     Ao longo de sua carreira, David Bowie se tornou uma das figuras mais importantes da cultura pop.
                     Sua trajetória, desde a infância até o estrelato, mostra a história de alguém que nunca teve medo de mudar,
@@ -113,7 +137,11 @@
 
             <div class="footer-comentario">
                 <form id="form-comentario">
-                    <label for="comentario">Deixe seu comentário sobre o artista</label>
+
+                    <label for="nome">Seu nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+                    <label for="comentario">Deixe seu comentário sobre </label>
 
                     <textarea  id="comentario" name="comentario"></textarea>
                     <button type="submit" class="button">Enviar</button>
@@ -130,7 +158,7 @@
 <script >
     function confirmar_mensagem(event){
     event.preventDefault();
-    alert('Mensagem Enviada');
+    alert('Olá '+ document.getElementById('nome').value+('! Mensagem enviada.'));
     }
     document.getElementById('form-comentario').addEventListener('submit', confirmar_mensagem);
 </script>
